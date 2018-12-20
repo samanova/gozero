@@ -1,0 +1,476 @@
+body {
+    background: white;
+}
+
+.main {
+    width: 1340px;
+    height: 680px;
+    margin: 40px auto;
+    border: solid red 0px;
+}
+
+.main-what {
+    width: 1340px;
+    height: 1000px;
+    margin: 40px auto;
+    border: solid red 0px;
+}
+
+.main-why {
+    width: 1340px;
+    height: 1200px;
+    margin: 40px auto;
+    border: solid red 0px;
+}
+
+.main-how {
+    width: 1340px;
+    height: 2500px;
+    margin: 40px auto;
+    border: solid red 0px;
+}
+
+.content-what {
+    width: 930px;
+    height: 500px;
+    border: solid red 0px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.content-why {
+    width: 930px;
+    height: 700px;
+    border: solid red 0px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.content-how {
+    width: 930px;
+    height: 2000px;
+    border: solid red 0px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.nav {
+    width: 160px;
+    height: 100%;
+    border: solid red 0px;
+}
+
+.sub-main-home {
+    width: 1135px;
+    height: 680px;
+    border: solid red 0px;
+    position: absolute;
+    margin: 40px 60px 0px 60px;
+    top: 0px;
+    left: 165px;
+}
+
+.sub-main-what {
+    width: 1135px;
+    height: 1000px;
+    border: solid red 0px;
+    position: absolute;
+    margin: 40px 60px 0px 60px;
+    top: 0px;
+    left: 165px;
+}
+
+.sub-main-why {
+    width: 1135px;
+    height: 1200px;
+    border: solid red 0px;
+    position: absolute;
+    margin: 40px 60px 0px 60px;
+    top: 0px;
+    left: 165px;
+}
+
+.sub-main-how {
+    width: 1135px;
+    height: 2500px;
+    border: solid red 0px;
+    position: absolute;
+    margin: 40px 60px 0px 60px;
+    top: 0px;
+    left: 165px;
+}
+
+.nav-text {
+    font-family: roboto slab, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #44462e;
+    font-size: 24px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+    animation: nav_fade-in 0.25s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.nav-text-blank {
+    font-family: roboto slab, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 24px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.nav-spacer {
+    width: 160px;
+    height: 122px;
+    float: left;
+}
+
+.nav-circles {
+    width: 115px;
+    height: 150px;
+    float: left;
+    border: solid red 0px;
+    animation: nav_fade-in 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.nav-circle-active {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    background-color: #44462e;
+    float: left;
+    animation: nav_fade-in 0.25s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.nav-circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    background-color: #8fa340;
+    float: left;
+    animation: nav_fade-in 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes nav_fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.question-bubble {
+    left: 535px;
+    top: 150px;
+    position: relative;
+}
+
+.down-arrow {
+    left: 483px;
+    top: 400px;
+    position: relative;
+}
+
+.what-bubble {
+    left: 517px;
+    top: 150px;
+    position: relative;
+    animation: what_fade-in 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.why-bubble {
+    left: 250px;
+    top: 400px;
+    position: relative;
+    animation: why_fade-in 2s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.how-bubble {
+    left: 490px;
+    top: 400px;
+    position: relative;
+    animation: how_fade-in 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes what_fade-in {
+     0% {opacity: 0;}
+     100% {opacity: 1;}
+}
+
+@keyframes why_fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes how_fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+.footer {
+    width: 110px;
+    height: 25px;
+    border: 0px solid red;
+    margin: 0px 690px;
+    float: left;
+}
+
+.r-regular {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8fa340;
+}
+
+.r-bold {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.r-bold-pagehead-what {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #44462e;
+    text-align: center;
+    position: absolute;
+    left: 467px;
+    top: 307px;
+}
+
+.r-bold-pagehead-why {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #44462e;
+    text-align: center;
+    position: absolute;
+    left: 385px;
+    top: 307px;
+}
+
+.r-bold-pagehead-how {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #44462e;
+    text-align: center;
+    position: absolute;
+    left: 420px;
+    top: 307px;
+}
+
+.r-slab-regular {
+    font-family: roboto-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.r-slab-bold {
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.r-slab-bold-heading {
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #44462e;
+    font-size: 26px;
+    line-height: 10px;
+}
+
+.r-slab-bold-pagehead-what {
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    color: #44462e;
+    text-align: center;
+    position: absolute;
+    left: 505px;
+    top: 200px;
+}
+
+.r-slab-bold-pagehead-why {
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    color: #44462e;
+    text-align: center;
+    position: absolute;
+    left: 510px;
+    top: 200px;
+}
+
+.r-slab-bold-pagehead-how {
+    font-family: roboto-slab, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    color: #44462e;
+    text-align: center;
+    position: absolute;
+    left: 512px;
+    top: 200px;
+}
+
+.footer-text {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #44462e;
+    margin: 0px;
+}
+
+a:link {
+    color: #8fa340;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #44462e;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+.produce-bag {
+    position: absolute;
+    z-index: 10;
+    top: 1000px;
+    left: 40px;
+}
+
+.c501 {
+    position: absolute;
+    z-index: 9;
+    top: 1100px;
+    left: 500px;
+}
+
+.glass-container {
+    position: absolute;
+    z-index: 8;
+    top: 300px;
+    left: 150px;
+}
+
+.c100 {
+    position: absolute;
+    z-index: 7;
+    top: 1200px;
+    left: 500px;
+}
+
+.glass-jars {
+    position: absolute;
+    z-index: 6;
+    top: 675px;
+    left: 250px;
+}
+
+.toothbrushes {
+    position: absolute;
+    z-index: 5;
+    top: 550px;
+    left: 600px;
+}
+
+.pantry-glass {
+    position: absolute;
+    z-index: 4;
+    top: 1000px;
+    left: 600px;
+}
+
+.c70 {
+    position: absolute;
+    z-index: 3;
+    top: 550px;
+    left: 50px;
+}
+
+.metal-straws {
+    position: absolute;
+    z-index: 2;
+    top: 1400px;
+    left: 350px;
+}
+
+.c251 {
+    position: absolute;
+    z-index: 1;
+    top: 500px;
+    left: 125px;
+}
+
+.c252 {
+    position: absolute;
+    z-index: 0;
+    top: 1300px;
+    left: 600px;
+}
+
+.c502 {
+    position: absolute;
+    z-index: 5;
+    top: 1750px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
